@@ -2,7 +2,7 @@ let workerLoaded;
 
 async function worker() {
   return await navigator.serviceWorker.register("/sw.js", {
-    scope: "/service",
+    scope: "https://photos.superr.cc/bare/",
   });
 }
 
